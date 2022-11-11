@@ -1,0 +1,15 @@
+[package]
+name = "impx"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kevin Chen <kevin@chenbc.me>"]
+description = "implement X"
+repository = "https://github.com/chikaku/imp"
+documentation = "https://github.com/chikaku/imp"
+readme = "README.md"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"

@@ -3,4 +3,5 @@
 #![feature(is_sorted)]
 
 pub mod binary_search;
+pub mod disjoint_set;
 pub mod sorting;

@@ -7,6 +7,7 @@
 
 #![feature(is_sorted)]
 
+pub mod binary_indexed_tree;
 pub mod binary_search;
 pub mod disjoint_set;
 pub mod linked_list;

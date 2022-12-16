@@ -16,3 +16,4 @@ pub mod linked_list_rc;
 pub mod linked_list_refcell;
 pub mod sorting;
 pub mod sparse_table;
+pub mod trie;

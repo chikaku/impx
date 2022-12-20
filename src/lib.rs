@@ -14,6 +14,7 @@ pub mod linked_list;
 pub mod linked_list_box;
 pub mod linked_list_rc;
 pub mod linked_list_refcell;
+pub mod segment_tree;
 pub mod sorting;
 pub mod sparse_table;
 pub mod trie;

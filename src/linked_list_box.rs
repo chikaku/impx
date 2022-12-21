@@ -62,7 +62,7 @@ impl<T> List<T> {
 
 impl<T> Drop for List<T> {
     /// 默认的 drop 会从头节点开始, 递归的 drop 下一个节点, 可能会造成栈溢出  
-    /// 为什么无法用尾递归优化? Box<Node> 在 drop 的时候要先 drop 内部的元素, 才能 drop 自己  
+    /// 为什么无法用尾递归优化? `Box<Node>` 在 drop 的时候要先 drop 内部的元素, 才能 drop 自己  
     /// 所以需要手动迭代元素 drop
     fn drop(&mut self) {
         let mut curr = self.head.take();

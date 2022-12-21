@@ -10,6 +10,7 @@
 pub mod binary_indexed_tree;
 pub mod binary_search;
 pub mod disjoint_set;
+pub mod kmp;
 pub mod linked_list;
 pub mod linked_list_box;
 pub mod linked_list_rc;

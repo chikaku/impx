@@ -1,4 +1,6 @@
-//! 使用 `Rc` 实现的单链表 <https://rust-unofficial.github.io/too-many-lists/third.html>
+//! 单向链表 `Rc` 实现
+//!
+//! <https://rust-unofficial.github.io/too-many-lists/third.html>
 
 use std::rc::Rc;
 

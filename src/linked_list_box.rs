@@ -1,4 +1,6 @@
-//! 使用 `Box` 实现的单链表 <https://rust-unofficial.github.io/too-many-lists/second.html>
+//! 单向链表 `Box` 实现
+//!
+//! <https://rust-unofficial.github.io/too-many-lists/second.html>
 
 /// 单链表
 #[derive(Default)]

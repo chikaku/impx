@@ -1,4 +1,6 @@
-//! 使用 `unsafe` 实现的双向链表 <https://rust-unofficial.github.io/too-many-lists/sixth.html>
+//! 双向链表 `unsafe` 实现
+//!
+//! <https://rust-unofficial.github.io/too-many-lists/sixth.html>
 
 use std::fmt::Debug;
 use std::hash::Hash;

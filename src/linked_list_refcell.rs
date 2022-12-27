@@ -1,4 +1,6 @@
-//! 使用 `RefCell` 实现的双向链表 <https://rust-unofficial.github.io/too-many-lists/fourth.html>
+//! 双向链表 `RefCell` 实现
+//!
+//! <https://rust-unofficial.github.io/too-many-lists/fourth.html>
 
 use std::{
     cell::Ref,

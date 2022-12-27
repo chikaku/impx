@@ -33,3 +33,5 @@
 - 字符串
   - 最小表示法
   - Manacher 算法
+- 数组
+  - Boyer–Moore 多数投票算法

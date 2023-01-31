@@ -10,6 +10,7 @@
 pub mod array;
 pub mod binary_indexed_tree;
 pub mod binary_search;
+pub mod binary_tree;
 pub mod crc32;
 pub mod disjoint_set;
 pub mod kmp;

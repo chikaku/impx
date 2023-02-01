@@ -13,6 +13,7 @@ pub mod binary_search;
 pub mod binary_tree;
 pub mod crc32;
 pub mod disjoint_set;
+pub mod huffman_tree;
 pub mod kmp;
 pub mod linked_list;
 pub mod linked_list_box;

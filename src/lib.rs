@@ -8,6 +8,7 @@
 #![feature(is_sorted)]
 
 pub mod array;
+pub mod avl_tree;
 pub mod binary_heap;
 pub mod binary_indexed_tree;
 pub mod binary_search;

@@ -9,6 +9,7 @@
 
 pub mod array;
 pub mod avl_tree;
+pub mod b_plus_tree;
 pub mod b_tree;
 pub mod binary_heap;
 pub mod binary_indexed_tree;

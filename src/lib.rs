@@ -18,6 +18,7 @@ pub mod binary_search_tree;
 pub mod binary_tree;
 pub mod bitset;
 pub mod bloom_filter;
+pub mod consistent_hashmap;
 pub mod crc32;
 pub mod cuckoo_filter;
 pub mod disjoint_set;

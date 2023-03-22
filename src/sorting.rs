@@ -482,6 +482,31 @@ pub fn quick_sort<T: PartialOrd + Copy>(v: &mut [T]) {
     quick_sort(&mut v[pivot + 1..]);
 }
 
+/// 双调排序
+pub fn bitonic_sort<T: PartialOrd>(v: &mut [T], up: bool) {
+    if v.len() > 1 {
+        let mid = v.len() >> 1;
+        bitonic_sort(&mut v[..mid], true);
+        bitonic_sort(&mut v[mid..], false);
+
+        bitonic_merge(v, up);
+    }
+}
+
+fn bitonic_merge<T: PartialOrd>(v: &mut [T], up: bool) {
+    if v.len() > 1 {
+        let mid = v.len() >> 1;
+        for i in 0..mid {
+            if (v[i] > v[i + mid]) == up {
+                v.swap(i, i + mid);
+            }
+        }
+
+        bitonic_merge(&mut v[..mid], up);
+        bitonic_merge(&mut v[mid..], up);
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use rand::Rng;
@@ -575,5 +600,20 @@ mod tests {
     fn test_quick_sort() {
         use super::quick_sort;
         do_rand_test(quick_sort);
+    }
+
+    #[test]
+    fn test_bitonic_sort() {
+        use super::bitonic_sort;
+
+        let mut rng = rand::thread_rng();
+        for _ in 0..32 {
+            let mut v = (0..128)
+                .map(|_| rng.gen_range(0..1000))
+                .collect::<Vec<usize>>();
+
+            bitonic_sort(&mut v, true);
+            assert!(v.is_sorted());
+        }
     }
 }

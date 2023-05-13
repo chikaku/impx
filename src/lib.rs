@@ -22,6 +22,7 @@ pub mod consistent_hashmap;
 pub mod crc32;
 pub mod cuckoo_filter;
 pub mod disjoint_set;
+pub mod graph_shortest_path;
 pub mod huffman_tree;
 pub mod josephus;
 pub mod kmp;

@@ -31,6 +31,7 @@ pub mod linked_list_box;
 pub mod linked_list_rc;
 pub mod linked_list_refcell;
 pub mod radix_tree;
+pub mod rb_tree;
 pub mod segment_tree;
 pub mod skip_list;
 pub mod sorting;

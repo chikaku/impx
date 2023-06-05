@@ -94,11 +94,11 @@ impl SegmentTree {
 
         // 如有未更新的标记, 先更新到下一层
         if node.low != node.high && node.lazy_mark > 0 {
-            let mut left = &mut self.tree[node.index * 2 + 1];
+            let left = &mut self.tree[node.index * 2 + 1];
             left.sum += ((left.high - left.low + 1) as isize) * node.lazy_mark;
             left.lazy_mark += node.lazy_mark;
 
-            let mut right = &mut self.tree[node.index * 2 + 2];
+            let right = &mut self.tree[node.index * 2 + 2];
             right.sum += ((right.high - right.low + 1) as isize) * node.lazy_mark;
             right.lazy_mark += node.lazy_mark;
 
@@ -136,11 +136,11 @@ impl SegmentTree {
 
         // 如有未更新的标记, 先更新到下一层
         if node.low != node.high && node.lazy_mark > 0 {
-            let mut left = &mut self.tree[node.index * 2 + 1];
+            let left = &mut self.tree[node.index * 2 + 1];
             left.sum += ((left.high - left.low + 1) as isize) * node.lazy_mark;
             left.lazy_mark += node.lazy_mark;
 
-            let mut right = &mut self.tree[node.index * 2 + 2];
+            let right = &mut self.tree[node.index * 2 + 2];
             right.sum += ((right.high - right.low + 1) as isize) * node.lazy_mark;
             right.lazy_mark += node.lazy_mark;
 

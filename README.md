@@ -45,6 +45,7 @@
 - [图论: Dijkstra 最短路径算法](./src/graph_shortest_path.rs)
 - [CRC32](./src/crc32.rs)
 - [霍夫曼树/编码](./src/huffman_tree.rs)
+- [矩阵快速幂](./src/matrix_exp.rs)
 
 ### 题解
 

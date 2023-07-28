@@ -22,6 +22,7 @@
 - [线段树](./src/segment_tree.rs)
 - [字典树](./src/trie.rs)
 - [基数树](./src/radix_tree.rs)
+- [笛卡尔树](./src/cartesian_tree.rs)
 - [树状数组](./src/binary_indexed_tree.rs)
 - [二叉堆](./src/binary_heap.rs)
 - [双向链表](./src/linked_list.rs)

@@ -32,6 +32,7 @@ pub mod linked_list_box;
 pub mod linked_list_rc;
 pub mod linked_list_refcell;
 pub mod matrix_exp;
+pub mod minimum_spanning_tree;
 pub mod radix_tree;
 pub mod rb_tree;
 pub mod segment_tree;

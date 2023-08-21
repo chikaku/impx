@@ -44,6 +44,7 @@
 - [字符串: Manacher 算法](./src/string.rs)
 - [图论: Floyd 最短路径算法](./src/graph_shortest_path.rs)
 - [图论: Dijkstra 最短路径算法](./src/graph_shortest_path.rs)
+- [图论: Kruskal 最小生成树算法](./src/minimum_spanning_tree.rs)
 - [CRC32](./src/crc32.rs)
 - [霍夫曼树/编码](./src/huffman_tree.rs)
 - [矩阵快速幂](./src/matrix_exp.rs)

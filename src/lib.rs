@@ -40,4 +40,5 @@ pub mod skip_list;
 pub mod sorting;
 pub mod sparse_table;
 pub mod string;
+pub mod treap;
 pub mod trie;

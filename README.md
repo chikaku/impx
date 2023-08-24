@@ -25,6 +25,7 @@
 - [笛卡尔树](./src/cartesian_tree.rs)
 - [树状数组](./src/binary_indexed_tree.rs)
 - [二叉堆](./src/binary_heap.rs)
+- [树堆](./src/treap.rs)
 - [双向链表](./src/linked_list.rs)
 - [跳跃表](./src/skip_list.rs)
 - [稀疏表](./src/sparse_table.rs)

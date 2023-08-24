@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Kevin Chen <kevin@chenbc.me>"]
 description = "implement X"
-repository = "https://github.com/chikaku/imp"
-documentation = "https://github.com/chikaku/imp"
+repository = "https://github.com/chikaku/impx"
+documentation = "https://github.com/chikaku/impx"
 readme = "README.md"
 license = "MIT"
 
